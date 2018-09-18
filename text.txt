@@ -1,0 +1,5 @@
+# 이미지 기반 검색 서비스
+# https://visual-meta.com/tech-corner/shopalook-visual-recommendation-of-fashion-products-using-deep-learning.html
+
+# 특징별 분석
+# https://github.com/PlabanM1/FashionNet
