@@ -3,3 +3,24 @@
 
 # 특징별 분석
 # https://github.com/PlabanM1/FashionNet
+
+# Fashion Recognition (API??) : Deep Learing to Classify
+# https://demos.algorithmia.com/deep-fashion/
+
+# Clothing Parser
+# http://vision.is.tohoku.ac.jp/~kyamagu/research/clothing_parsing/
+
+# git: Top-wear clothes grap-cut
+# https://github.com/anish9/Fashion-AI-segmentation
+
+# Paper: ModaNet: A Large-Scale Street Fashion Dataset with Polygon Annotations
+# https://arxiv.org/pdf/1807.01394.pdf
+
+# Collection of APIs about fashion
+# https://www.programmableweb.com/category/fashion/apis?category=20216
+
+# API: Style recognition
+# https://www.programmableweb.com/api/thread-genius
+
+# Collection of APIs about clothes
+# https://www.programmableweb.com/category/clothing/api
