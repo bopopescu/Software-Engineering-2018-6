@@ -82,7 +82,6 @@ U_SN = []
 ID = []
 PW = []
 NAME = []
-IMG_URL = []
 NICKNAME = []
 ADDRESS = []
 PHONE_NUMBER= []
@@ -93,50 +92,56 @@ for x in myresult:
     ID.append(x[1])
     PW.append(x[2])
     NAME.append(x[3])
-    IMG_URL.append(x[4])
-    NICKNAME.append(x[5])
-    ADDRESS.append(x[6])
-    PHONE_NUMBER.append(x[7])
+    NICKNAME.append(x[4])
+    ADDRESS.append(x[5])
+    PHONE_NUMBER.append(x[6])
 
 #member : dict 
-member_dict = {"U_SN":U_SN,"ID":ID,"PW":PW,"NAME":NAME,"IMG_URL":IMG_URL,"NICKNAME":NICKNAME,"ADDRESS":ADDRESS,"PHONE_NUMBER":PHONE_NUMBER}
+member_dict = {"U_SN":U_SN,"ID":ID,"PW":PW,"NAME":NAME,"NICKNAME":NICKNAME,"ADDRESS":ADDRESS,"PHONE_NUMBER":PHONE_NUMBER}
 print("member_dict")
 display(pd.DataFrame(member_dict))
-attr_list = ["항공점퍼","바지","니트","티셔츠","red","blue","black","brown","ivory","yellow","white"]
+attr_list = ["항공점퍼","바지","니트","티셔츠","red","blue","black","brown","ivory","yellow","white","asdf"]
 
 
-#user_Attribute array
+#User_Attribute array
+user_blank=[]
+for i in range(len(U_SN)+1):
+    user_blank.append(0)
+    
 #user 갯수만큼 array 생성
-U_A_dict = {x:[0,0,0] for x in attr_list}
+U_A_dict = {x:list(tuple(user_blank)) for x in attr_list}   #변수 차단 tuple로 변환한순간 변수x
+    
 print("U_A_dict")
 display(pd.DataFrame(U_A_dict))
-
+#rating to User-Attribute table
 
 for i in range(len(UID)):
     #rating_dict['UID'][0]=0번째 UID
     #rating_dict['PID'][0]=0번째 PID
     #rating_dict['RATE'][0]=0번째 RATING
     #product_dict["TYPE"][i]에 해당하는 행에 ++를 한다
-    U_A_dict[product_dict["TYPE"][i]][rating_dict['UID'][i]]+=rating_dict['RATE'][i]
-    U_A_dict[product_dict["COLOR"][i]][rating_dict['UID'][i]]+=rating_dict['RATE'][i]
+    U_A_dict[product_dict["TYPE"][rating_dict['PID'][i]]][rating_dict['UID'][i]]+=rating_dict['RATE'][i]
+    U_A_dict[product_dict["COLOR"][rating_dict['PID'][i]]][rating_dict['UID'][i]]+=rating_dict['RATE'][i]
 print("U_A_dict")
 display(pd.DataFrame(U_A_dict))
 
-#user-Product table;
-U_P_dict={x:[0,0,0] for x in PID}
+#User-Product table;
+U_P_dict={x:list(tuple(user_blank)) for x in range(len(P_SN)+1)}
 print("U_P_dict")
 display(pd.DataFrame(U_P_dict))
 for j in PID:
-    for i in range(3):
+    for i in range(len(U_SN)+1):
         U_P_dict[j][i]+=U_A_dict[product_dict['TYPE'][j]][i]
         U_P_dict[j][i]+=U_A_dict[product_dict['COLOR'][j]][i]
 print("U_P_dict")
 display(pd.DataFrame(U_P_dict))
 
-#ranking
-a=[[],[],[]]
+#Ranking
+user_rank=[]
+for i in range(len(U_SN)+1):
+    user_rank.append([])
 for i in UID:
-        a[i]={x:U_P_dict[x][i] for x in U_P_dict.keys()}
+        user_rank[i]={x:U_P_dict[x][i] for x in U_P_dict.keys()}
 
 #서버로 보내는 sorted 된 product 리스트 #1에 UID
-sorted(a[1],key=lambda k: a[1][k],reverse=True)
+sorted(user_rank[1],key=lambda k: user_rank[1][k],reverse=True)
