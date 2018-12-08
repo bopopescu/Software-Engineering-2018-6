@@ -134,8 +134,8 @@ PRIMARY KEY (SN)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 */
 
-INSERT INTO product(attr1,attr2,attr3,attr4,attr5,name,price,img_url,product_url)
-values('','','','','','','항공점퍼1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(SN,attr1,attr2,attr3,attr4,attr5,name,price,img_url,product_url)
+values('','','','','','','','항공점퍼1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
 
 /*
 CREATE TABLE Member ( 
