@@ -1,0 +1,230 @@
+ 18 : americana                    5
+ 19 : angeles                      5
+ 25 : art                          5
+ 29 : athletic                     5
+ 30 : audrey                       5
+ 31 : babe                         5
+ 32 : babydoll                     5
+ 43 : barbie                       5
+ 46 : baseball                     5
+ 47 : basic                        5
+ 48 : basquiat                     5
+ 50 : beach                        5
+ 57 : beatles                      5
+ 58 : bed                          5
+ 62 : bella                        5
+ 73 : bike                         5
+ 74 : biker                        5
+ 77 : blah                         5
+ 81 : blurred                      5
+ 85 : boho                         5
+ 86 : bold                         5
+101 : boyfriend                    5
+106 : brooklyn                     5
+107 : brooklyn nets                5
+121 : california                   5
+122 : camera                       5
+128 : candy                        5
+132 : cardio                       5
+134 : cat                          5
+143 : chic                         5
+160 : cities                       5
+161 : city                         5
+162 : civil                        5
+164 : classic                      5
+180 : coast                        5
+182 : coffee                       5
+239 : cute                         5
+246 : dainty                       5
+250 : daring                       5
+251 : dark                         5
+252 : darling                      5
+255 : defyant                      5
+263 : desert                       5
+264 : destroyed                    5
+265 : devil                        5
+277 : doll                         5
+283 : doodle                       5
+295 : dream                        5
+296 : dreamcatcher                 5
+297 : dreamer                      5
+303 : dynamite                     5
+304 : eagle                        5
+305 : edge                         5
+306 : eiffel                       5
+308 : elegant                      5
+324 : enchanted                    5
+325 : ethereal                     5
+326 : everyday                     5
+335 : fan                          5
+336 : fancy                        5
+352 : festive                      5
+353 : field                        5
+354 : fisherman                    5
+365 : flawless                     5
+366 : flirty                       5
+396 : floyd                        5
+407 : fox                          5
+408 : france                       5
+410 : free spirit                  5
+413 : fresh                        5
+414 : frida                        5
+420 : galaxy                       5
+421 : garden                       5
+422 : garden party                 5
+430 : genuine                      5
+439 : girl                         5
+440 : girls                        5
+448 : grunge                       5
+449 : guns                         5
+450 : halen                        5
+454 : heat                         5
+460 : hepburn                      5
+461 : heroes                       5
+480 : inset                        5
+481 : internet                     5
+482 : island                       5
+483 : isle                         5
+485 : joie                         5
+486 : kahlo                        5
+492 : kid                          5
+493 : killin                       5
+494 : kiss                         5
+495 : kitty                        5
+514 : la                           5
+540 : lady                         5
+541 : lakers                       5
+543 : laser                        5
+564 : life                         5
+565 : light                        5
+566 : lightning                    5
+569 : logo                         5
+578 : lounge                       5
+579 : love                         5
+580 : lover                        5
+583 : loyal                        5
+584 : luxe                         5
+589 : mandarin                     5
+590 : map                          5
+593 : marilyn                      5
+594 : marilyn monroe               5
+597 : matelot                      5
+602 : meow                         5
+611 : miami                        5
+612 : mickey                       5
+613 : mickey mouse                 5
+619 : mina                         5
+623 : minnie                       5
+624 : minnie mouse                 5
+625 : mirrored                     5
+629 : mob                          5
+633 : mod                          5
+634 : modernist                    5
+635 : monroe                       5
+636 : moon                         5
+637 : morning                      5
+643 : muse                         5
+655 : new york                     5
+656 : night                        5
+658 : notorious                    5
+659 : ny                           5
+660 : nyc                          5
+679 : oxford                       5
+689 : pan                          5
+692 : paradise                     5
+693 : paris                        5
+694 : party                        5
+703 : performance                  5
+706 : pineapple                    5
+707 : pink                         5
+713 : pizza                        5
+714 : pj                           5
+717 : please                       5
+728 : popcorn                      5
+730 : posh                         5
+731 : power                        5
+752 : quirky                       5
+754 : rad                          5
+755 : raga                         5
+758 : rainbow                      5
+761 : rebel                        5
+762 : red                          5
+763 : refined                      5
+764 : regime                       5
+765 : relaxed                      5
+766 : retro                        5
+767 : reverse                      5
+768 : reversible                   5
+779 : roll                         5
+780 : rolling                      5
+781 : rolling stones               5
+782 : roman                        5
+783 : rose                         5
+785 : roses                        5
+791 : rugby                        5
+794 : run                          5
+795 : running                      5
+796 : rustic                       5
+797 : safari                       5
+806 : sea                          5
+809 : seaside                      5
+816 : shark                        5
+825 : shopping                     5
+826 : shore                        5
+836 : sky                          5
+847 : smart                        5
+848 : smile                        5
+851 : snap                         5
+852 : snoopy                       5
+853 : soft                         5
+854 : solid                        5
+862 : spirit                       5
+867 : spongebob                    5
+868 : sporty                       5
+870 : springs                      5
+872 : standout                     5
+873 : star                         5
+874 : stars                        5
+892 : studio                       5
+894 : summer                       5
+895 : sun                          5
+896 : sunburst                     5
+897 : sunflower                    5
+898 : surfer                       5
+901 : sweet                        5
+902 : sweetheart                   5
+903 : swim                         5
+905 : swiss                        5
+907 : taco                         5
+910 : tasmanian                    5
+914 : texas                        5
+917 : thermal                      5
+925 : tokyo                        5
+928 : tower                        5
+929 : track                        5
+930 : training                     5
+932 : tree                         5
+933 : trench                       5
+934 : triangle                     5
+939 : tropical                     5
+940 : trouble                      5
+947 : tupac                        5
+955 : utility                      5
+959 : van                          5
+960 : varsity                      5
+964 : venice                       5
+968 : voyager                      5
+970 : wake                         5
+974 : wave                         5
+975 : weekend                      5
+976 : west                         5
+978 : wifey                        5
+979 : wild                         5
+980 : wildflower                   5
+983 : woke                         5
+984 : workout                      5
+988 : yoga                         5
+989 : yoke                         5
+990 : york                         5
+991 : youth                        5
+992 : zeppelin                     5
