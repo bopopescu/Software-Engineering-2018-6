@@ -172,7 +172,6 @@ class table(rate, product, user):
         for i in range(1, len(self.U_SN)):
             t = sorted(user_rank[i], key = lambda k : user_rank[i][k], reverse = False)
             for j in range(len(user_rank[i])-20,len(user_rank[i])):
-                #print(str(t[j]) + '\t')
                 input_string = "insert into recommend (rec_ID, rec_RANK, rec_date) values (%s, %s, %s)"
                 self.cursor.execute(input_string, (self.ID[i],t[j],today))
         self.db.commit()
