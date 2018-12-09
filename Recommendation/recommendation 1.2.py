@@ -168,22 +168,25 @@ class table(rate, product, user):
         for i in self.UID:
                 user_rank[i]={x:U_P_dict[x][i] for x in U_P_dict.keys()}
         r = 0
+        x = 0
         count = dict()
         #서버로 보내는 sorted 된 product 리스트 #1에 UID
         #sorted(user_rank[1],key=lambda k: user_rank[1][k],reverse=True)
         #Sending recommend table to server
         for i in range(1, len(self.U_SN)):
             t = sorted(user_rank[i], key = lambda k : user_rank[i][k], reverse = False)
+            x = i
             for j in user_rank[i]:
                 if user_rank[i][j] != 0:
                     r+=1
-            count[i] = r
+            count[i] = (i,r)
+            x = 0
             r = 0
             
         for i in range(1, len(self.U_SN)):
             t = sorted(user_rank[i], key = lambda k : user_rank[i][k], reverse = False)
-            if count[i].value > 20:
-                for j in range(count[i].value-20, count[i].value):
+            if count[i] > 20:
+                for j in range(count[i][0] + count[i][1]-20,count[i][0] + count[i][1]):
                     input_string = "insert into recommend (rec_ID, rec_RANK, rec_date) values (%s, %s, %s)"
                     self.cursor.execute(input_string, (self.ID[i],user_rank[i][j],today))
         self.db.commit()
