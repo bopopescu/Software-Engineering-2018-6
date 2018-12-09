@@ -176,6 +176,8 @@ class table(rate, product, user):
                 self.cursor.execute(input_string, (self.ID[i],t[j],today))
         self.db.commit()
         print(self.cursor.rowcount, "inserted")
+
+        #filter searching
         self.cursor.execute("select * from product where fabric='knit'")
         print(mycursor.fetchall())
         
@@ -186,6 +188,4 @@ mydb = DBConnection('localhost','root','2a4u8d60','faredy_db').get_conn()
 mycursor = mydb.cursor()
 
 #pd.options.display.max_columns = None
-
 test = table(mycursor, mydb).userarray()
-
