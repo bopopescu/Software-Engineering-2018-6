@@ -15,12 +15,9 @@ UNIQUE KEY nickname_UNIQUE (nickname)
 
 CREATE TABLE Product ( 
 SN int(11) NOT NULL AUTO_INCREMENT, 
-attr1 varchar(50) NOT NULL, 
-attr2 varchar(50) NOT NULL, 
-attr3 varchar(50) NOT NULL, 
-attr4 varchar(50) NOT NULL, 
-attr5 varchar(50) NOT NULL, 
-name varchar(100) NOT NULL, 
+type varchar(7) NOT NULL, 
+color varchar(7) NOT NULL, 
+name varchar(45) NOT NULL, 
 price int(11) NOT NULL, 
 img_url varchar(100) NOT NULL, 
 product_url varchar(100) NOT NULL,
@@ -120,22 +117,43 @@ CONSTRAINT fk_Community_Comment_Free_2 FOREIGN KEY (community_SN) REFERENCES Com
 /*
 CREATE TABLE Product ( 
 SN int(11) NOT NULL AUTO_INCREMENT, 
-attr1 varchar(50) NOT NULL, 
-attr2 varchar(50) NOT NULL, 
-attr3 varchar(50) NOT NULL, 
-attr4 varchar(50) NOT NULL, 
-attr5 varchar(50) NOT NULL, 
-name varchar(100) NOT NULL, 
+type varchar(7) NOT NULL, 
+color varchar(7) NOT NULL, 
+name varchar(45) NOT NULL, 
 price int(11) NOT NULL, 
+stock int(11) NOT NULL, 
 img_url varchar(100) NOT NULL, 
 product_url varchar(100) NOT NULL,
-view int(5) DEFAULT NULL,
 PRIMARY KEY (SN)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 */
 
-INSERT INTO product(SN,attr1,attr2,attr3,attr4,attr5,name,price,img_url,product_url)
-values('','','','','','','','Ç×°øÁ¡ÆÛ1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url)
+values('Ç×°øÁ¡ÆÛ','red','Ç×°øÁ¡ÆÛ1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('Ç×°øÁ¡ÆÛ','blue','Ç×°øÁ¡ÆÛ2','60000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('Ç×°øÁ¡ÆÛ','black','Ç×°øÁ¡ÆÛ3','70000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('¹ÙÁö','blue','Ã»¹ÙÁö1','30000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('¹ÙÁö','black','Ã»¹ÙÁö2','40000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('¹ÙÁö','brown','¸é¹ÙÁö1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('´ÏÆ®','brown','´ÏÆ®1','80000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('´ÏÆ®','ivory','´ÏÆ®2','70000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('´ÏÆ®','white','´ÏÆ®3','100000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('Æ¼¼ÅÃ÷','blue','±äÆÈ1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('Æ¼¼ÅÃ÷','red','±äÆÈ2','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('Æ¼¼ÅÃ÷','blue','¹ÝÆÈ1','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
+INSERT INTO product(type,color,name,price,img_url,product_url) 
+values('Æ¼¼ÅÃ÷','yellow','¹ÝÆÈ2','50000','https://image.musinsa.com/mfile_s01//_lookbook/list5bee4f0b4549e','https://image.musinsa.com');
 
 /*
 CREATE TABLE Member ( 

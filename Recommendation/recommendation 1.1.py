@@ -30,7 +30,6 @@ class rate:
         self.cursor.execute(input_string)
         
     def result(self):
-        print("Rate in")
         self.cursor.execute("SELECT * FROM rating")
         myresult = mycursor.fetchall()
         UID = []
@@ -47,7 +46,6 @@ class product:
     def __self__(self,cursor):
         self.cursor = cursor
     def result(self):
-        print("Product in")
         self.cursor.execute("SELECT * FROM product")
         myresult = mycursor.fetchall()
         P_SN = []
@@ -80,7 +78,6 @@ class user:
     def __self__(self, cursor):
         self.cursor = cursor
     def result(self):
-        print("user in")
         self.cursor.execute("SELECT * FROM member")
         myresult = mycursor.fetchall()
         U_SN = []
@@ -105,19 +102,13 @@ class user:
 class table(rate, product, user):
     def __init__(self,cursor):
         self.cursor = cursor
-        rate.__init__(self, cursor)
-        product.__init__(self)
-        user.__init__(self)
-        
         self.UID, self.PID, self.RATE, self.rating_dict = rate.result(self)
         self.P_SN, self.attr1 ,self.attr2, self.attr3, self.attr4, self.attr5, self.NAME, self.PRICE, self.IMG_URL, self.PRODUCT_URL, self.VIEW, self.product_dict= product.result(self)
         self.U_SN, self.ID, self.PW, self.NAME2, self.NICKNAME, self.ADDRESS, self.PHONE_NUMBER, self.member_dict = user.result(self)
-        print("table init")
 
     def userarray(self):
         attr_lists = []
-        print("userarry in")
-        print(self.UID)
+        print("UID : " + str(self.UID) + '\n')
         for element in self.attr1:
             if element not in attr_lists:
                 attr_lists.append(element)
@@ -140,8 +131,7 @@ class table(rate, product, user):
         #user 갯수만큼 array 생성
         U_A_dict = {x:list(tuple(user_blank)) for x in attr_lists}   #변수 차단 tuple로 변환한순간 변수x
             
-        print("U_A_dict")
-        print(U_A_dict)
+        print("Initialized U_A_dict")
         display(pd.DataFrame(U_A_dict))
         #rating to User-Attribute table
 
@@ -155,12 +145,12 @@ class table(rate, product, user):
             U_A_dict[self.product_dict["attr3"][self.rating_dict['PID'][i]]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
             U_A_dict[self.product_dict["attr4"][self.rating_dict['PID'][i]]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
             U_A_dict[self.product_dict["attr5"][self.rating_dict['PID'][i]]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
-        print("U_A_dict")
+        print("Updated U_A_dict")
         display(pd.DataFrame(U_A_dict))
 
         #User-Product table;
         U_P_dict={x:list(tuple(user_blank)) for x in range(len(self.P_SN)+1)}
-        print("U_P_dict")
+        print("Initialized U_P_dict")
         display(pd.DataFrame(U_P_dict))
         for j in self.PID:
             for i in range(len(self.U_SN)+1):
@@ -169,7 +159,7 @@ class table(rate, product, user):
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr3'][j]][i]
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr4'][j]][i]
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr5'][j]][i]
-        print("U_P_dict")
+        print("Updated U_P_dict")
         display(pd.DataFrame(U_P_dict))
 
         #Ranking
@@ -189,7 +179,7 @@ mydb = DBConnection('localhost','root','gnsdl10','faredy_db')
 mydbconn = mydb.get_conn()
 mycursor = mydbconn.cursor()
 
-pd.options.display.max_columns = None
+#pd.options.display.max_columns = None
 
 test = table(mycursor).userarray()
 
