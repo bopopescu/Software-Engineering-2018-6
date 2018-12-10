@@ -45,7 +45,7 @@ class rate:
             date.append(x[2])
             account_id.append(x[3])
             product_id.append(x[4])
-        rating_dict = {"UID": rating_id, "PID": product_id, "RATE": rate}
+        rating_dict = {"UID": account_id, "PID": product_id, "RATE": rate}
         return (rating_id, rate, date, account_id, product_id, rating_dict)
 
 class product:
@@ -129,7 +129,6 @@ class table(rate, product, user):
             
         
         #rating to User-Attribute table
-
         for i in range(len(self.rating_id)):
             #rating_dict['UID'][0]=0번째 UID
             #rating_dict['PID'][0]=0번째 PID
@@ -141,7 +140,6 @@ class table(rate, product, user):
             U_A_dict[self.product_dict["attr4"][self.rating_dict['PID'][i]-1]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
             U_A_dict[self.product_dict["attr5"][self.rating_dict['PID'][i]-1]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
         U_A_dict['NULL'] = list(tuple(user_blank))
-        
         #User-Product table;
         U_P_dict={x:list(tuple(user_blank)) for x in range(len(self.P_SN)+1)}
         for j in range(1,len(self.P_SN) + 1):
@@ -157,26 +155,23 @@ class table(rate, product, user):
         user_rank=[]
         for i in range(len(self.U_SN)+1):
             user_rank.append([])
-        for i in self.rating_id:
+        for i in self.account_id:
                 user_rank[i]={x:U_P_dict[x][i] for x in U_P_dict.keys()}
-
-        print(len(self.U_SN))  
-        for i in range(1, len(self.U_SN)):
-            t = sorted(user_rank[i], key = lambda k : user_rank[i][k], reverse = False)
-            for j in range(len(user_rank[i])-20,len(user_rank[i])):
-                input_string = "insert into recommend_app_recommend (ID, rec_date, account_id, P_SN) values (%s, %s, %s, %s)"
-                self.cursor.execute(input_string, (self.ID[i],today,self.account_id[i] ,t[j]))
-        #self.db.commit()
-        print(self.cursor.rowcount, "inserted")
-
+        for i in range(1,len(self.U_SN)+1):
+            t = sorted(user_rank[i], key = lambda k : user_rank[i][k], reverse = True)
+            for j in range(min(20,len(self.P_SN))):
+                input_string = "insert into recommend_app_recommend (date, account_id, product_id) values (NOW(), %s, %s)"
+                self.cursor.execute(input_string,(i ,t[min(20,len(self.P_SN))-j]))
+        self.db.commit()
+        
         #filter searching
-        self.cursor.execute("select * from product_mgr_app_product where fabric='knit'")
-        print(mycursor.fetchall())
+        #self.cursor.execute("select * from product_mgr_app_product where fabric='knit'")
+        #print(mycursor.fetchall())
         
 
         
-#mydb = DBConnection('localhost','faredy_02','faredy','faredy_db_02').get_conn()
-mydb = DBConnection('localhost','root','gnsdl10','faredy_db_02').get_conn()
+mydb = DBConnection('localhost','faredy_02','faredy','faredy_db_02').get_conn()
+
 mycursor = mydb.cursor()
 # option for displaying all columns using <display>
 
