@@ -155,7 +155,7 @@ class table(rate, product, user):
         user_rank=[]
         for i in range(len(self.U_SN)+1):
             user_rank.append([])
-        for i in self.account_id:
+        for i in range(1,len(self.U_SN)+1):
                 user_rank[i]={x:U_P_dict[x][i] for x in U_P_dict.keys()}
         error=0
         for i in range(1,len(self.U_SN)+1):
@@ -177,7 +177,7 @@ class table(rate, product, user):
         
 
         
-mydb = DBConnection('localhost','faredy_02','faredy','faredy_db_02').get_conn()
+mydb = DBConnection('localhost','root','2a4u8d60','faredy_db_02').get_conn()
 
 mycursor = mydb.cursor()
 # option for displaying all columns using <display>
