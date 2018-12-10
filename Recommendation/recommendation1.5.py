@@ -183,7 +183,7 @@ class table(rate, product, user):
         
 
         
-mydb = DBConnection('localhost','root','2a4u8d60','faredy_db').get_conn()
+mydb = DBConnection('localhost','faredy_02','faredy','faredy_db_02').get_conn()
 # change host/name/passwd/DB according to Server
 mycursor = mydb.cursor()
 
