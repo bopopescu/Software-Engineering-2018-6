@@ -32,23 +32,27 @@ class rate:
         self.cursor.execute(input_string)
         
     def result(self):
-        self.cursor.execute("SELECT * FROM rating")
+        self.cursor.execute("SELECT * FROM product_mgr_app_rating")
         myresult = mycursor.fetchall()
-        UID = []
-        PID = []
-        RATE = []
+        rating_id = []
+        rate = []
+        date = []
+        account_id = []
+        product_id = []
         for x in myresult:
-            UID.append(x[0])
-            PID.append(x[1])
-            RATE.append(x[2])
-        rating_dict = {"UID": UID, "PID": PID, "RATE": RATE}
-        return (UID, PID, RATE, rating_dict)
+            rating_id.append(x[0])
+            rate.append(x[1])
+            date.append(x[2])
+            account_id.append(x[3])
+            product_id.append(x[4])
+        rating_dict = {"UID": rating_id, "PID": product_id, "RATE": rate}
+        return (rating_id, rate, date, account_id, product_id, rating_dict)
 
 class product:
     def __self__(self,cursor):
         self.cursor = cursor
     def result(self):
-        self.cursor.execute("SELECT * FROM product")
+        self.cursor.execute("SELECT * FROM product_mgr_app_product")
         myresult = mycursor.fetchall()
         P_SN = []
         attr1 = []
@@ -80,29 +84,27 @@ class user:
     def __self__(self, cursor):
         self.cursor = cursor
     def result(self):
-        self.cursor.execute("SELECT * FROM member")
+        self.cursor.execute("SELECT * FROM account_app_account")
         myresult = mycursor.fetchall()
         U_SN = []
         ID = []
         # modified according to main DB
         for x in myresult:
             U_SN.append(x[0])
-            ID.append(x[1])
-            
-        member_dict = {"U_SN":U_SN,"ID":ID}
-        return (U_SN, ID, member_dict)
+            ID.append(x[5])
+        return (U_SN, ID)
 
 class table(rate, product, user):
     def __init__(self,cursor, db):
         self.db = db
         self.cursor = cursor
-        self.UID, self.PID, self.RATE, self.rating_dict = rate.result(self)
-        self.P_SN, self.attr1 ,self.attr2, self.attr3, self.attr4, self.attr5, self.NAME, self.PRICE, self.IMG_URL, self.PRODUCT_URL, self.VIEW, self.product_dict= product.result(self)
-        self.U_SN, self.ID, self.member_dict = user.result(self)
+        #self.UID, self.PID, self.RATE= rate.result(self)
+        self.rating_id, self.rate, self.date, self.account_id, self.product_id, self.rating_dict = rate.result(self)
+        self.P_SN, self.attr1 ,self.attr2, self.attr3, self.attr4, self.attr5, self.NAME, self.PRICE, self.IMG_URL, self.PRODUCT_URL, self.VIEW, self.product_dict = product.result(self)
+        self.U_SN, self.ID = user.result(self)
 
     def userarray(self):
         attr_lists = []
-        #print("UID : " + str(self.UID) + '\n')
         for element in self.attr1:
             if element not in attr_lists:
                 attr_lists.append(element)
@@ -118,8 +120,6 @@ class table(rate, product, user):
         for element in self.attr5:
             if element not in attr_lists:
                 attr_lists.append(element)
-        #print(attr_lists)
-        #print(attr_lists.count("NULL"))
         user_blank=[]
         for i in range(len(self.U_SN)+1):
             user_blank.append(0)
@@ -127,11 +127,10 @@ class table(rate, product, user):
         #user 갯수만큼 array 생성
         U_A_dict = {x:list(tuple(user_blank)) for x in attr_lists}   #변수 차단 tuple로 변환한순간 변수x
             
-        #print("Initialized U_A_dict")
-        #display(pd.DataFrame(U_A_dict))
+        
         #rating to User-Attribute table
 
-        for i in range(len(self.UID)):
+        for i in range(len(self.rating_id)):
             #rating_dict['UID'][0]=0번째 UID
             #rating_dict['PID'][0]=0번째 PID
             #rating_dict['RATE'][0]=0번째 RATING
@@ -142,13 +141,9 @@ class table(rate, product, user):
             U_A_dict[self.product_dict["attr4"][self.rating_dict['PID'][i]-1]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
             U_A_dict[self.product_dict["attr5"][self.rating_dict['PID'][i]-1]][self.rating_dict['UID'][i]]+=self.rating_dict['RATE'][i]
         U_A_dict['NULL'] = list(tuple(user_blank))
-        #print("Updated U_A_dict")
-        #display(pd.DataFrame(U_A_dict))
-
+        
         #User-Product table;
         U_P_dict={x:list(tuple(user_blank)) for x in range(len(self.P_SN)+1)}
-        #print("Initialized U_P_dict")
-        #display(pd.DataFrame(U_P_dict))
         for j in range(1,len(self.P_SN) + 1):
             for i in range(len(self.U_SN)+1):
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr1'][j-1]][i]
@@ -156,36 +151,34 @@ class table(rate, product, user):
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr3'][j-1]][i]
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr4'][j-1]][i]
                 U_P_dict[j][i]+=U_A_dict[self.product_dict['attr5'][j-1]][i]
-                
-        #print("Updated U_P_dict")
-        display(pd.DataFrame(U_P_dict))
         
         #Ranking
         
         user_rank=[]
         for i in range(len(self.U_SN)+1):
             user_rank.append([])
-        for i in self.UID:
+        for i in self.rating_id:
                 user_rank[i]={x:U_P_dict[x][i] for x in U_P_dict.keys()}
 
         print(len(self.U_SN))  
         for i in range(1, len(self.U_SN)):
             t = sorted(user_rank[i], key = lambda k : user_rank[i][k], reverse = False)
             for j in range(len(user_rank[i])-20,len(user_rank[i])):
-                input_string = "insert into recommend (ID, P_SN, rec_date) values (%s, %s, %s)"
-                self.cursor.execute(input_string, (self.ID[i],t[j],today))
-        self.db.commit()
+                input_string = "insert into recommend_app_recommend (ID, rec_date, account_id, P_SN) values (%s, %s, %s, %s)"
+                self.cursor.execute(input_string, (self.ID[i],today,self.account_id[i] ,t[j]))
+        #self.db.commit()
         print(self.cursor.rowcount, "inserted")
 
         #filter searching
-        self.cursor.execute("select * from product where fabric='knit'")
+        self.cursor.execute("select * from product_mgr_app_product where fabric='knit'")
         print(mycursor.fetchall())
         
 
         
-mydb = DBConnection('localhost','faredy_02','faredy','faredy_db_02').get_conn()
-# change host/name/passwd/DB according to Server
+#mydb = DBConnection('localhost','faredy_02','faredy','faredy_db_02').get_conn()
+mydb = DBConnection('localhost','root','gnsdl10','faredy_db_02').get_conn()
 mycursor = mydb.cursor()
+# option for displaying all columns using <display>
 
 #pd.options.display.max_columns = None
 test = table(mycursor, mydb).userarray()
