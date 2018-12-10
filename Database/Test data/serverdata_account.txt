@@ -1,0 +1,20 @@
+insert into account_app_account(nickname,registration_date,user_id)
+values('user001',NOW(),001);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user002',NOW(),002);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user003',NOW(),003);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user004',NOW(),004);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user005',NOW(),005);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user006',NOW(),006);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user007',NOW(),007);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user008',NOW(),008);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user009',NOW(),009);
+insert into account_app_account(nickname,registration_date,user_id)
+values('user010',NOW(),010);

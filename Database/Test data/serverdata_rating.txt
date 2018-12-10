@@ -1,0 +1,402 @@
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'1','35');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'1','50');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'1','69');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','98');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','103');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'1','109');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'1','172');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','201');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'1','233');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'1','237');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','241');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','253');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','299');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'1','308');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'1','310');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','347');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'1','400');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','412');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','528');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','647');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','655');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'1','656');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'1','678');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'1','693');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','730');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','786');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'1','874');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'1','896');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'1','907');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'1','910');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'1','919');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'2','80');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'2','260');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'2','261');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'2','397');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'2','490');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'2','504');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'2','524');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'2','528');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'2','597');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'2','690');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'2','694');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'2','723');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'2','763');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'2','796');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'2','815');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'2','816');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'2','830');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'2','856');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'2','911');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'2','952');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'2','984');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'3','48');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'3','418');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'3','420');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'3','531');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'3','602');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'3','615');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'3','781');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'3','783');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'3','790');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'3','889');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'3','939');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'4','64');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'4','131');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'4','232');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'4','525');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'4','529');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'4','685');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'4','690');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'4','837');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'4','862');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'4','895');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'5','53');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','157');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','161');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','168');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','277');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','278');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'5','286');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'5','396');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'5','426');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'5','431');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'5','449');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','625');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'5','670');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'5','710');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'5','732');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'5','747');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'5','758');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'5','764');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'5','907');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'5','927');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'5','999');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'6','6');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'6','86');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','117');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','145');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','203');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'6','234');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','254');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'6','259');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'6','270');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'6','291');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','303');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'6','332');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'6','457');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'6','487');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'6','521');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'6','577');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'6','618');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','642');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'6','646');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'6','649');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'6','799');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'6','868');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','872');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','890');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'6','915');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'6','934');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'6','1000');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'7','136');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'7','152');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','191');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','349');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','465');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'7','535');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'7','564');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'7','591');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'7','637');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'7','647');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','688');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'7','787');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'7','893');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','924');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','942');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'7','957');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'7','960');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'7','973');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'8','17');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'8','46');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'8','55');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'8','75');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'8','105');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'8','278');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'8','419');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'8','537');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'8','635');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'8','657');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'8','667');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'8','696');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'8','778');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'8','785');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'8','804');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'8','818');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'8','838');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'8','906');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'8','928');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'8','977');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'9','30');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'9','160');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'9','226');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'9','299');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'9','313');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'9','314');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'9','362');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'9','372');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'9','385');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'9','495');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'9','514');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'9','581');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'9','614');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'9','616');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'9','760');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'9','808');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'9','809');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'9','919');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'9','970');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'10','12');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','156');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'10','186');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','370');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','378');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'10','412');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','483');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'10','558');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'10','573');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'10','580');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'10','586');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'10','603');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'10','625');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','626');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'10','677');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','699');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'10','780');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('5',NOW(),'10','811');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('1',NOW(),'10','812');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('3',NOW(),'10','813');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('4',NOW(),'10','838');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('0',NOW(),'10','896');
+insert into product_mgr_app_rating(rate,date,account_id,product_id)
+values('2',NOW(),'10','975');
