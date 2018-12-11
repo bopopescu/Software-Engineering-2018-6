@@ -1,0 +1,16 @@
+STYLE:117
+art
+baseball
+beach
+bike
+city
+classic
+destroyed
+light
+logo
+love
+night
+rugby
+smart
+soft
+sporty

@@ -1,0 +1,11 @@
+SHAPE:82
+a-line
+boxy
+classic fit
+crop
+fit
+medium
+muscle
+oversized
+skinny
+trouser
