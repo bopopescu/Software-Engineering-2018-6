@@ -1,16 +1,6 @@
 FABRIC:106
-canvas
-chino
-cloud
 cotton
 denim
-feather
 knit
 neoprene
 nylon
-stone
-stretch
-tartan
-velvet
-wash
-woven

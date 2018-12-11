@@ -1,11 +1,6 @@
 PART:93
-collar
-collarless
-hooded
 long-sleeve
 off-the-shoulder
-pocket
 raglan
 sleeve
 sleeveless
-v-neck

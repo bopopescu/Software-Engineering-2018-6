@@ -1,11 +1,6 @@
 TEXTURE:55
 animal
-diamond
 dot
 floral
-graphic
 linen
-mosaic
-pattern
 print
-stripe
