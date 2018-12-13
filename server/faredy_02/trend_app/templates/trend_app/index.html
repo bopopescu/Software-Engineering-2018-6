@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+<!-- Main Content - start -->
+<main>
+    <section class="container">
+        <ul class="b-crumbs">
+        <li><a href="/">Home</a></li>
+        <li><span>Recent Trend</span></li>
+	</ul>
+        <h1 class="main-ttl"><span>Recent Trend</span></h1>
+            <div class="section-cont">
+            <div class="prod-items section-items">
+		{% for record in table %}
+                <div class="prod-i">
+                    <div class="prod-i-top">
+			<a href="/recommend/{{ record.id }}" class="prod-i-img"><!-- NO SPACE --><img src="{% static record.img_url %}" alt="{{ record.name }}"><!-- NO SPACE --></a>
+			<a href="/recommend/{{ record.id }}" class="prod-i-buy">상세보기</a>
+                        <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+			<div class="prod-i-properties">
+                            <dl>
+				{% if record.texture != "NULL" %}
+				<dt>Texture : {{ record.texture }}</dt><p>
+				{% endif %}
+				{% if record.fabric != "NULL" %}
+				<dt>Fabric : {{ record.fabric }}</dt><p>
+				{% endif %}
+				{% if record.shape != "NULL" %}
+				<dt>Shape : {{ record.shape }}</dt><p>
+				{% endif %}
+				{% if record.part != "NULL" %}
+				<dt>Part : {{ record.part }}</dt><p>
+				{% endif %}
+				{% if record.style != "NULL" %}
+				<dt>Style : {{ record.style }}</dt>
+				{% endif %}
+                            </dl>
+                        </div>
+                    </div>
+                    <h3><a href="/recommend/{{ record.id }}">{{ record.name }}</a></h3>
+		    <p class="prod-i-price"><b>{{ record.price }} 원</b></p>
+                </div>
+		{% endfor %}
+
+        </div>
+	</div>
+        <!-- Catalog Items | Gallery V1 - end -->
+
+    </section>
+</main>
+<!-- Main Content - end -->
+
+{% endblock %}
+

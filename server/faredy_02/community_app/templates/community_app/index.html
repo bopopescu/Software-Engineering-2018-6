@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+
+<main>
+	<section class = "container">
+		<ul class = "b-crumbs">
+			<li><a href = "/">Home</a></li>
+			<li><span>Community</span></li>
+		</ul>
+		<h1 class = "main-ttl"><span>User Community</span></h1>
+	</section>
+		
+</main>
+<section class ="container">
+<span style = "align = center; width = 750px; margin = 10px;">
+		<script id = "UHACHATSCRIPT" type = "text/javascript" charset = "utf-8" src = "http://chat.uha.kr/chat.js"></script>
+		<script type = "text/javascript">
+		var uharoom = "faredy_test";
+		</script>
+</section>
+</span>
+
+		
+{% endblock %}

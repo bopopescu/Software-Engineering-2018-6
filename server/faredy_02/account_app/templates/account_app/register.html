@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block body %}
+<p></p>
+<div class="container">
+  <h2>가입하기</h2>
+  <br>
+
+  <form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% for field in form %}
+    <div class="form-group">
+      <p>
+      <h7>{{field.label_tag}}</h5>
+      <div class="">{{field}}</div>
+      {% if field.help_text %}
+      <small style="display: none">{{field.help_text}}</small>
+      {% endif %}
+      </p>
+    </div>
+    {% endfor %}
+    {% if form.error_massege %}
+    <p style="color: red">{{form.error_massege}}</p>
+    {% endif %}
+    <div class="form-group">
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+  </form>
+</div>
+{% endblock %}

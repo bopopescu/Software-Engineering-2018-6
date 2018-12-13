@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+
+<!-- Main Content - start -->
+<main>
+
+    <section class="container">
+
+        <!-- Slider -->
+        <div class="fr-slider-wrap">
+            <div class="fr-slider">
+                <ul class="slides">
+                    <li>
+                        <img src="{% static 'main_app/img/slide1.jpg' %}" alt="">
+                        <div class="fr-slider-cont">
+                            <h3>Filter Search</h3>
+                            <p>Comfortable Shopping! You can skip the list you don't want <br>
+				You can search for clothes based on the desired features.<br>
+				Search clothes based on the proposed options, get the results.</p>
+                            <p class="fr-slider-more-wrap">
+                                <a class="fr-slider-more" href="#">View collection</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{% static 'main_app/img/slide2.jpg' %}" alt="">
+                        <div class="fr-slider-cont">
+                            <h3>Personalized Recommendation</h3>
+                            <p>Just Shopping! We have all choices for you.<br>
+				We provides personalized recommendation based on your service use record.<br>
+				By using the search and shopping histoy, we analyze what you like.</p>
+                            <p class="fr-slider-more-wrap">
+                                <a class="fr-slider-more" href="#">Shopping now</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{% static 'main_app/img/slide3.jpg' %}" alt="">
+                        <div class="fr-slider-cont">
+                            <h3>Trend Recommendation</h3>
+                            <p>You can be fasion people. Hot trend information<br>
+				We show the trends by collecting the keywords of each customer in the system.<br>
+				You just have to get the information.</p>
+                            <p class="fr-slider-more-wrap">
+                                <a class="fr-slider-more" href="#">Start shopping</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+            </section>
+</main>
+<!-- Main Content - end -->
+
+
+<!-- Page Content -->
+
+{% endblock %}

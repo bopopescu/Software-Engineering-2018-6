@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+<!-- Main Content - start -->
+<head>
+<style>	
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 5px 5px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-image: url('{% static 'searchicon.png' %}');
+  background-size : 40px 40px;
+  margin-bottom : 20px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+	input[type=text]:focus {
+		width: 100%;
+	}
+</style>
+</head>
+<main>
+    <section class="container">
+        <ul class="b-crumbs">
+        <li><a href="/">Home</a></li>
+        <li><span>Search</span></li>
+	</ul>
+        <h1 class="main-ttl"><span>Search Clothes</span></h1>
+	<div>
+		<form action = "{% url 'search_app:index' %}" method = "post" enctype = "text/plain">
+			{% csrf_token %}
+		<input type ="text" method = "post" placeholder="Search.." style = "float: left;color:black;border:2px solid grey; "> 
+		</form>
+	</div>
+	<div class="prod-items section-items">
+		{% for record in table %}
+                <div class="prod-i">
+                    <div class="prod-i-top">
+			<a href="/recommend/{{ record.id }}" class="prod-i-img"><!-- NO SPACE --><img src="{% static record.img_url %}" alt="{{ record.name }}"><!-- NO SPACE --></a>
+			<a href="/recommend/{{ record.id }}" class="prod-i-buy">상세보기</a>
+                        <p class="prod-i-properties-label"><i class="fa fa-info"></i></p>
+			<div class="prod-i-properties">
+                            <dl>
+				{% if record.texture != "NULL" %}
+				<dt>Texture : {{ record.texture }}</dt><p>
+				{% endif %}
+				{% if record.fabric != "NULL" %}
+				<dt>Fabric : {{ record.fabric }}</dt><p>
+				{% endif %}
+				{% if record.shape != "NULL" %}
+				<dt>Shape : {{ record.shape }}</dt><p>
+				{% endif %}
+				{% if record.part != "NULL" %}
+				<dt>Part : {{ record.part }}</dt><p>
+				{% endif %}
+				{% if record.style != "NULL" %}
+				<dt>Style : {{ record.style }}</dt>
+				{% endif %}
+                            </dl>
+                        </div>
+                    </div>
+                    <h3><a href="/recommend/{{ record.id }}">{{ record.name }}</a></h3>
+		    <p class="prod-i-price"><b>{{ record.price }} 원</b></p>
+                    <div class="prod-i-skuwrapcolor">
+                        <ul class="prod-i-skucolor">
+                            <li class="bx_active"><img src="img/color/red.jpg" alt="Red"></li>
+                            <li><img src="img/color/blue.jpg" alt="Blue"></li>
+                        </ul>
+                    </div>
+                </div>
+		{% endfor %}
+
+        </div>
+        <!-- Catalog Items | Gallery V1 - end -->
+
+    </section>
+</main>
+<!-- Main Content - end -->
+
+{% endblock %}
+

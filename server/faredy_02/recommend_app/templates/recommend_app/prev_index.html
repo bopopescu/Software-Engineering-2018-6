@@ -1,0 +1,15 @@
+추천내역
+<p></p>
+리스트는 {{ table }}
+<p> </p> <p> </p> <p> </p>
+<p> </p>
+{% for record in table %}
+<p>
+	{{ record.name }}
+	<p></p>
+	img_url is {{ record.img_url }}
+	<p></p>
+	view is {{ record.view }}
+	<a href="/recommend/{{ record.id }}/">상세보기</a>
+</p>
+{% endfor %}

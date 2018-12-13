@@ -1,0 +1,15 @@
+<form action="{% url 'search_app:test' %}" method="POST">
+{% csrf_token %}
+{% if is_POST %}
+{{ result }}
+{% else %}
+<div class="">{{ form.attr00.label}}: {{ form.attr00 }}</div>
+<div class="">{{ form.attr01.label}}: {{ form.attr01 }}</div>
+<div class="">{{ form.attr02.label}}: {{ form.attr02 }}</div>
+<div class="">{{ form.attr03.label}}: {{ form.attr03 }}</div>
+<div class="">{{ form.attr04.label}}: {{ form.attr04 }}</div>
+
+<button type="submit">submit</button>
+</form>
+
+{% endif %}

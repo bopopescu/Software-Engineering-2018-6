@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+<p></p>
+<div class="container">
+	<h2>로그인 하기</h2>
+	<br>
+	<img src='{% static '/p6.jpg' %}'>
+	<form method="post">
+		{% csrf_token %}
+		{% for field in form %}
+		<div class="form-group">
+		<p>
+		<h5>{{ field.label_tag }}</h5>
+		<div class="">{{ field }}</div>
+		{% if field.help_text %}
+		<small style="display: none">{{ field.help_text }}</small>
+		{% endif %}
+		</p>
+		</div>
+		{% endfor %}
+		{% if form.error_message %}
+		<p style="color: red">{{ form.error_message }}</p>
+		{% endif %}
+		<button type="submit" class="btn btn-success">Login</button>
+		<a href="register">가입하기</a>
+	</form>
+</div>
+<br><br>
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block body %}
+{% load static %}
+
+<main>
+<section class = "container">
+  <ul class = "b-crumbs">
+  <li><a href = "/">Home</a></li>
+  <li><span>Search</span></li>
+  </ul> 
+  <h1 class = "main-ttl"><span>Search clothes</span></h1>
+  <div class= "section-sb">
+    <form action = "{% url 'search_app:test' %}"  method = "POST">
+      {% csrf_token %}
+      <div class = "section-filter">
+        <div class = "section-filter-cont">
+	  <div class = "section-filter-item opened">
+            <p class = "section-filter-ttl">Texture <i class = "fa fa-angle-down"></i></p>
+	      <div class = "section-filter-fields">
+                {{form.attr00}} {{ form.attr00.label}} <br>
+		{{form.attr01}} {{ form.attr01.label}} <br>
+		{{form.attr02}} {{ form.attr02.label}} <br>
+		{{form.attr03}} {{ form.attr03.label}} <br>
+		{{form.attr04}} {{ form.attr04.label}} <br>
+		</div>
+	</div>
+	<div class="section-filter-item opened">
+		<p class="section-filter-ttl">Fabric <i class="fa fa-angle-down"></i></p>
+		<div class="section-filter-fields">
+			{{form.attr05}} {{ form.attr05.label}} <br>
+			{{form.attr06}} {{ form.attr06.label}} <br>
+			{{form.attr07}} {{ form.attr07.label}} <br>
+			{{form.attr08}} {{ form.attr08.label}} <br>
+			{{form.attr09}} {{ form.attr09.label}} <br>
+		</div>
+	</div>
+	<div class = "section-filter-item opened">
+		<p class = "section-filter-ttl">Shape <i class = "fa fa-angle-down"></i></p>
+		<div class="section-filter-fields">
+			{{form.attr10}} {{ form.attr10.label}} <br>
+			{{form.attr11}} {{ form.attr11.label}} <br>
+			{{form.attr12}} {{ form.attr12.label}} <br>
+			{{form.attr13}} {{ form.attr13.label}} <br>
+			{{form.attr14}} {{ form.attr14.label}} <br>
+		</div>
+	</div>
+	<div class="section-filter-item opened">
+		<p class="section-filter-ttl">Part <i class="fa fa-angle-down"></i></p>
+		<div class="section-filter-fields">
+			{{form.attr15}} {{ form.attr15.label}} <br>
+			{{form.attr16}} {{ form.attr16.label}} <br>
+			{{form.attr17}} {{ form.attr17.label}} <br>
+			{{form.attr18}} {{ form.attr18.label}} <br>
+			{{form.attr19}} {{ form.attr19.label}} <br>
+		</div>
+	</div>
+	<div class="section-filter-item opened">
+		<p class="section-filter-ttl">Style <i class="fa fa-angle-down"></i></p>
+		<div class="section-filter-fields">
+			{{form.attr20}} {{ form.attr20.label}} <br>
+			{{form.attr21}} {{ form.attr21.label}} <br>
+			{{form.attr22}} {{ form.attr22.label}} <br>
+			{{form.attr23}} {{ form.attr23.label}} <br>
+			{{form.attr24}} {{ form.attr24.label}} <br>
+		</div>
+	</div>
+	<div class="section-filter-buttons">
+		<button class="btn btn-themes" id="set_filter" name="set_filter" value="Apply filter" type="submit">
+			Search
+		</button>
+	</div>
+			</div>
+		</form>
+		</div>
+</section>
+
+		{% if is_POST %}
+		{{ result }}
+		{{ records }}
+		{% else %}
+		{% endif %}
+</main>
+{% endblock %}
