@@ -1,0 +1,156 @@
+  3 : abstract                     1
+  4 : abstract chevron             1
+  5 : abstract chevron print       1
+  6 : abstract diamond             1
+  7 : abstract floral              1
+  8 : abstract floral print        1
+  9 : abstract geo                 1
+ 10 : abstract geo print           1
+ 11 : abstract paisley             1
+ 12 : abstract pattern             1
+ 13 : abstract print               1
+ 14 : abstract printed             1
+ 15 : abstract stripe              1
+ 20 : animal                       1
+ 21 : animal print                 1
+ 41 : bandana                      1
+ 42 : bandana print                1
+ 44 : baroque                      1
+ 45 : baroque print                1
+ 75 : bird                         1
+ 76 : bird print                   1
+ 87 : botanical                    1
+ 88 : botanical print              1
+100 : boxy striped                 1
+103 : breton                       1
+104 : breton stripe                1
+108 : brushstroke                  1
+109 : brushstroke print            1
+112 : butterfly                    1
+113 : butterfly print              1
+126 : camo                         1
+127 : camouflage                   1
+137 : checked                      1
+138 : checkered                    1
+139 : cheetah                      1
+141 : chevron                      1
+142 : chevron print                1
+145 : chiffon floral               1
+159 : circle                       1
+163 : clashist                     1
+173 : classic striped              1
+188 : colorblock                   1
+190 : colorblocked                 1
+217 : crochet floral               1
+247 : daisy                        1
+248 : daisy print                  1
+266 : diamond                      1
+267 : diamond print                1
+274 : ditsy                        1
+275 : ditsy floral                 1
+276 : ditsy floral print           1
+284 : dot                          1
+285 : dots                         1
+286 : dotted                       1
+314 : embroidered floral           1
+367 : floral                       1
+368 : floral flutter               1
+378 : floral paisley               1
+379 : floral pattern               1
+382 : floral print                 1
+389 : floral textured              1
+390 : floral-embroidered           1
+394 : flower                       1
+401 : foil                         1
+404 : folk                         1
+405 : folk print                   1
+431 : geo                          1
+432 : geo pattern                  1
+433 : geo print                    1
+434 : geo stripe                   1
+437 : giraffe                      1
+438 : giraffe print                1
+443 : graphic                      1
+446 : grid                         1
+447 : grid print                   1
+452 : heart                        1
+453 : heart print                  1
+457 : heathered stripe             1
+475 : houndstooth                  1
+476 : ikat                         1
+477 : ikat print                   1
+487 : kaleidoscope                 1
+488 : kaleidoscope print           1
+508 : knit stripe                  1
+509 : knit striped                 1
+546 : leaf                         1
+547 : leaf print                   1
+560 : leave                        1
+562 : leopard                      1
+563 : leopard print                1
+567 : linen                        1
+568 : linen-blend                  1
+587 : mandala                      1
+588 : mandala print                1
+591 : marble                       1
+592 : marble print                 1
+595 : marled                       1
+596 : marled stripe                1
+599 : medallion                    1
+600 : medallion print              1
+626 : mixed                        1
+627 : mixed print                  1
+628 : mixed stripe                 1
+638 : mosaic                       1
+639 : mosaic print                 1
+641 : multi-stripe                 1
+644 : nautical                     1
+645 : nautical stripe              1
+646 : nautical striped             1
+664 : ombre                        1
+673 : ornate                       1
+674 : ornate paisley               1
+675 : ornate print                 1
+680 : paint                        1
+681 : paint splatter               1
+682 : painted                      1
+683 : paisley                      1
+684 : paisley print                1
+685 : palm                         1
+686 : palm print                   1
+687 : palm springs                 1
+688 : palm tree                    1
+697 : pattern                      1
+698 : patterned                    1
+708 : pinstripe                    1
+709 : pinstriped                   1
+724 : polka dot                    1
+726 : pom-pom                      1
+732 : print                        1
+737 : print shirt                  1
+746 : print woven                  1
+747 : printed                      1
+773 : ribbed stripe                1
+775 : ringer                       1
+792 : rugby stripe                 1
+793 : rugby striped                1
+855 : sophisticated                1
+856 : southwestern                 1
+857 : southwestern-inspired        1
+858 : southwestern-patterned       1
+859 : southwestern-print           1
+861 : speckled                     1
+863 : splatter                     1
+869 : spotted                      1
+885 : stripe                       1
+886 : striped                      1
+889 : stripes                      1
+890 : structured                   1
+926 : tonal                        1
+935 : tribal                       1
+936 : tribal-inspired              1
+954 : two-tone                     1
+961 : varsity-striped              1
+973 : watercolor                   1
+993 : zig                          1
+994 : zigzag                       1

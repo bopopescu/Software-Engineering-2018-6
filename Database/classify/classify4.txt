@@ -1,0 +1,216 @@
+ 24 : arrow collar                 4
+ 28 : asymmetrical hem             4
+ 33 : back bow                     4
+ 34 : back cutout                  4
+ 35 : back knit                    4
+ 36 : back lace                    4
+ 37 : back striped                 4
+ 38 : backless                     4
+ 49 : batwing                      4
+ 54 : beaded collar                4
+ 60 : bell                         4
+ 61 : bell-sleeve                  4
+ 63 : belted                       4
+ 64 : belted chiffon               4
+ 65 : belted floral                4
+ 66 : belted floral print          4
+ 67 : belted lace                  4
+ 68 : belted maxi                  4
+ 69 : belted plaid                 4
+ 82 : boat neck                    4
+ 89 : bow                          4
+ 90 : bow-back                     4
+ 91 : bow-front                    4
+ 99 : boxy pocket                  4
+102 : braided                      4
+114 : button                       4
+115 : button-front                 4
+116 : buttoned                     4
+130 : cap-sleeve                   4
+153 : chiffon surplice             4
+158 : cinched                      4
+166 : classic crew                 4
+167 : classic crew neck            4
+171 : classic pocket               4
+174 : classic v-neck               4
+183 : collar                       4
+184 : collar lace                  4
+185 : collared                     4
+186 : collarless                   4
+187 : collarless faux              4
+189 : colorblock pocket            4
+193 : contrast                     4
+194 : contrast trim                4
+195 : contrast-trimmed             4
+196 : convertible                  4
+203 : cowl                         4
+204 : cowl neck                    4
+209 : crew                         4
+210 : crew neck                    4
+212 : crisscross                   4
+213 : crisscross-back              4
+218 : crochet fringe               4
+225 : crochet-trimmed              4
+231 : cross-back                   4
+232 : crossback                    4
+233 : cuffed                       4
+235 : cuffed-sleeve                4
+236 : curved                       4
+237 : curved hem                   4
+245 : cutout-back                  4
+253 : deep v-neck                  4
+254 : deep-v                       4
+278 : dolman                       4
+279 : dolman sleeve                4
+280 : dolman-sleeve                4
+281 : dolphin                      4
+282 : dolphin hem                  4
+287 : double-breasted              4
+288 : drape-front                  4
+289 : draped                       4
+290 : draped open-front            4
+291 : draped shawl                 4
+292 : draped surplice              4
+294 : drawstring                   4
+298 : drop waist                   4
+299 : drop-sleeve                  4
+300 : drop-waist                   4
+301 : dropped                      4
+309 : elephant                     4
+310 : elephant print               4
+347 : faux leather-trimmed         4
+359 : fitted v-neck                4
+362 : flat                         4
+363 : flat front                   4
+364 : flat-front                   4
+384 : floral print strapless       4
+385 : floral print surplice        4
+388 : floral surplice              4
+391 : flounce                      4
+393 : flounced                     4
+397 : fluted                       4
+398 : flutter                      4
+399 : flutter sleeve               4
+400 : flutter-sleeve               4
+415 : fringe                       4
+416 : fringed                      4
+423 : gathered waistline           4
+445 : graphic racerback            4
+458 : heathered v-neck             4
+459 : hem                          4
+464 : high-neck                    4
+467 : high-slit                    4
+468 : high-slit maxi               4
+469 : high-waist                   4
+470 : high-waisted                 4
+471 : hood                         4
+472 : hooded                       4
+473 : hooded maxi                  4
+474 : hooded utility               4
+478 : illusion                     4
+479 : illusion neckline            4
+489 : kangaroo                     4
+490 : kangaroo pocket              4
+491 : keyhole                      4
+502 : knit open                    4
+504 : knit pocket                  4
+505 : knit raglan                  4
+506 : knit shawl                   4
+511 : knit v-neck                  4
+512 : knotted                      4
+525 : lace peplum                  4
+532 : lace sleeve                  4
+533 : lace trim                    4
+535 : lace-trim                    4
+536 : lace-trimmed                 4
+537 : lace-up                      4
+539 : ladder-back                  4
+542 : lapel                        4
+553 : leather peplum               4
+556 : leather trimmed              4
+559 : leather-trimmed              4
+570 : long sleeve                  4
+571 : long-sleeve                  4
+572 : long-sleeved                 4
+585 : m-slit                       4
+586 : m-slit maxi                  4
+607 : mesh racerback               4
+609 : mesh-trimmed                 4
+630 : mock                         4
+631 : mock neck                    4
+632 : mock-neck                    4
+647 : neck ribbed                  4
+648 : neck skater                  4
+649 : neck striped                 4
+650 : neckline                     4
+657 : notched collar               4
+662 : off-the-shoulder             4
+665 : one-button                   4
+666 : one-shoulder                 4
+667 : open-back                    4
+668 : open-front                   4
+669 : open-knit                    4
+670 : open-shoulder                4
+701 : peplum                       4
+705 : pin                          4
+722 : pocket                       4
+733 : print racerback              4
+741 : print strapless              4
+742 : print strappy                4
+743 : print surplice               4
+745 : print v-neck                 4
+753 : racerback                    4
+756 : raglan                       4
+757 : raglan sleeve                4
+789 : ruffle trim                  4
+800 : scallop                      4
+801 : scalloped                    4
+802 : scoop                        4
+803 : scoop-neck                   4
+811 : self-tie                     4
+817 : shawl                        4
+827 : shoulder                     4
+829 : side slit                    4
+830 : side-slit                    4
+831 : single-button                4
+838 : sleeve                       4
+839 : sleeveless                   4
+843 : slit                         4
+864 : split                        4
+865 : split-back                   4
+866 : split-neck                   4
+879 : strap                        4
+880 : strapless                    4
+881 : strapless tribal             4
+882 : strappy                      4
+888 : striped v-neck               4
+899 : surplice                     4
+900 : suspender                    4
+906 : t-back                       4
+911 : tassel                       4
+912 : tasseled                     4
+918 : tie-back                     4
+920 : tie-front                    4
+921 : tie-neck                     4
+924 : toggle                       4
+927 : topstitched                  4
+937 : trim                         4
+938 : trimmed                      4
+944 : tulip-back                   4
+948 : turtle-neck                  4
+951 : twist-front                  4
+952 : twisted                      4
+953 : two-button                   4
+956 : v-back                       4
+957 : v-cut                        4
+958 : v-neck                       4
+965 : vent                         4
+966 : vented hem                   4
+987 : y-back                       4
+995 : zip                          4
+996 : zip-front                    4
+997 : zip-pocket                   4
+998 : zip-up                       4
+999 : zipped                       4
+1000 : zipper                       4
+1001 : zippered                     4

@@ -1,0 +1,180 @@
+  2 : a-line                       3
+ 22 : ankle                        3
+ 26 : asymmetric                   3
+ 27 : asymmetrical                 3
+ 39 : baja                         3
+ 40 : bandage                      3
+ 56 : beaded shift                 3
+ 70 : bermuda                      3
+ 71 : bib                          3
+ 72 : big                          3
+ 83 : bodycon                      3
+ 84 : bodycon midi                 3
+ 92 : box                          3
+ 93 : box pleat                    3
+ 94 : box-pleated                  3
+ 95 : boxy                         3
+ 96 : boxy crop                    3
+ 97 : boxy knit                    3
+ 98 : boxy lace                    3
+111 : bustier                      3
+120 : caged                        3
+123 : cami                         3
+124 : cami crop                    3
+125 : cami maxi                    3
+131 : capri                        3
+133 : cargo                        3
+148 : chiffon maxi                 3
+149 : chiffon paneled              3
+150 : chiffon pleated              3
+151 : chiffon shift                3
+154 : chiffon-paneled              3
+169 : classic fit                  3
+172 : classic skinny               3
+191 : combo                        3
+192 : combo maxi                   3
+202 : cover-up                     3
+205 : cozy                         3
+207 : crepe shift                  3
+215 : crochet crop                 3
+221 : crochet maxi                 3
+224 : crochet-paneled              3
+228 : crop                         3
+229 : cropped                      3
+230 : cropped knit                 3
+238 : cut                          3
+240 : cutoff                       3
+241 : cutout                       3
+243 : cutout maxi                  3
+244 : cutout sheath                3
+258 : denim pencil                 3
+259 : denim shift                  3
+261 : denim skater                 3
+271 : distressed low-rise          3
+272 : distressed mid-rise          3
+273 : distressed skinny            3
+293 : drapey                       3
+313 : embroidered fit              3
+316 : embroidered gauze peasant    3
+318 : embroidered maxi             3
+320 : embroidered peasant          3
+321 : embroidered shift            3
+331 : eyelet fit                   3
+340 : faux leather mini            3
+341 : faux leather moto            3
+342 : faux leather paneled         3
+343 : faux leather pencil          3
+344 : faux leather skater          3
+345 : faux leather varsity         3
+346 : faux leather-paneled         3
+350 : faux-wrap                    3
+355 : fit                          3
+356 : fit flare                    3
+357 : fit skinny                   3
+358 : fitted                       3
+360 : flare                        3
+361 : flared                       3
+371 : floral lace mini             3
+372 : floral lace sheath           3
+373 : floral lace skater           3
+374 : floral maxi                  3
+376 : floral midi                  3
+377 : floral mini                  3
+380 : floral peasant               3
+381 : floral pleated               3
+383 : floral print skater          3
+386 : floral shift                 3
+387 : floral skater                3
+392 : flounce maxi                 3
+395 : flowy                        3
+402 : fold-over                    3
+403 : foldover                     3
+424 : gaucho                       3
+426 : gauze maxi                   3
+427 : gauze peasant                3
+444 : graphic muscle               3
+451 : harem                        3
+463 : high-low                     3
+465 : high-rise                    3
+466 : high-rise skinny             3
+496 : knee-length                  3
+499 : knit longline                3
+500 : knit maxi                    3
+501 : knit mini                    3
+503 : knit pencil                  3
+507 : knit skater                  3
+510 : knit trapeze                 3
+513 : kurt                         3
+517 : lace maxi                    3
+519 : lace midi                    3
+520 : lace mini                    3
+524 : lace pencil                  3
+528 : lace sheath                  3
+530 : lace shift                   3
+531 : lace skater                  3
+549 : leather mini                 3
+550 : leather moto                 3
+552 : leather pencil               3
+555 : leather skater               3
+557 : leather varsity              3
+573 : longline                     3
+574 : longline shirt               3
+581 : low-rise                     3
+582 : low-rise skinny              3
+598 : maxi                         3
+601 : medium                       3
+614 : mid rise                     3
+615 : mid rise skinny              3
+616 : mid-rise                     3
+617 : mid-rise skinny              3
+618 : midi                         3
+622 : mini                         3
+640 : moto                         3
+642 : muscle                       3
+677 : overlay sheath               3
+678 : oversized                    3
+699 : peasant                      3
+700 : pencil                       3
+720 : pleated skater               3
+725 : polo                         3
+729 : popover                      3
+736 : print shift                  3
+738 : print skater                 3
+739 : print smock                  3
+740 : print smocked                3
+744 : print tulip                  3
+748 : puffer                       3
+749 : pullover                     3
+759 : raw                          3
+760 : raw-cut                      3
+777 : rise                         3
+778 : rise skinny                  3
+784 : rose skater                  3
+786 : round                        3
+805 : scuba skater                 3
+819 : sheath                       3
+822 : shift                        3
+824 : shirt                        3
+832 : skater                       3
+833 : skinny                       3
+834 : skinny stretch               3
+835 : skort                        3
+841 : slim                         3
+842 : slip                         3
+844 : slouchy                      3
+849 : smock                        3
+850 : smocked                      3
+871 : square                       3
+878 : straight-leg                 3
+887 : striped trapeze              3
+904 : swing                        3
+931 : trapeze                      3
+941 : trouser                      3
+942 : tube                         3
+943 : tulip                        3
+946 : tunic                        3
+967 : vertical                     3
+977 : wide-leg                     3
+981 : windbreaker                  3
+982 : windowpane                   3
+986 : wrap                         3

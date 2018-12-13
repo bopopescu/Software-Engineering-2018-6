@@ -1,0 +1,218 @@
+ 16 : acid                         2
+ 17 : acid wash                    2
+ 23 : applique                     2
+ 51 : bead                         2
+ 52 : beaded                       2
+ 53 : beaded chiffon               2
+ 55 : beaded sheer                 2
+ 59 : bejeweled                    2
+ 78 : bleach                       2
+ 79 : bleached                     2
+ 80 : bleached denim               2
+105 : brocade                      2
+110 : burnout                      2
+117 : cable                        2
+118 : cable knit                   2
+119 : cable-knit                   2
+129 : canvas                       2
+135 : chambray                     2
+136 : chambray drawstring          2
+140 : chenille                     2
+144 : chiffon                      2
+146 : chiffon lace                 2
+147 : chiffon layered              2
+152 : chiffon shirt                2
+155 : chino                        2
+156 : chunky                       2
+157 : chunky knit                  2
+165 : classic cotton               2
+168 : classic denim                2
+170 : classic knit                 2
+175 : classic woven                2
+176 : clean                        2
+177 : clean wash                   2
+178 : cloud                        2
+179 : cloud wash                   2
+181 : coated                       2
+197 : corduroy                     2
+198 : cotton                       2
+199 : cotton drawstring            2
+200 : cotton knit                  2
+201 : cotton-blend                 2
+206 : crepe                        2
+208 : crepe woven                  2
+211 : crinkled                     2
+214 : crochet                      2
+216 : crochet embroidered          2
+219 : crochet knit                 2
+220 : crochet lace                 2
+222 : crochet mesh                 2
+223 : crochet overlay              2
+226 : crocheted                    2
+227 : crocheted lace               2
+234 : cuffed denim                 2
+242 : cutout lace                  2
+249 : damask                       2
+256 : denim                        2
+257 : denim drawstring             2
+260 : denim shirt                  2
+262 : denim utility                2
+268 : dip-dye                      2
+269 : dip-dyed                     2
+270 : distressed                   2
+302 : dye                          2
+307 : elasticized                  2
+311 : embellished                  2
+312 : embroidered                  2
+315 : embroidered gauze            2
+317 : embroidered lace             2
+319 : embroidered mesh             2
+322 : embroidered woven            2
+323 : embroidery                   2
+327 : eyelash                      2
+328 : eyelash knit                 2
+329 : eyelash lace                 2
+330 : eyelet                       2
+332 : faded                        2
+333 : fair                         2
+334 : fair isle                    2
+337 : faux                         2
+338 : faux fur                     2
+339 : faux leather                 2
+348 : faux shearling               2
+349 : faux suede                   2
+351 : feather                      2
+369 : floral knit                  2
+370 : floral lace                  2
+375 : floral mesh                  2
+406 : foulard                      2
+409 : frayed                       2
+411 : french                       2
+412 : french terry                 2
+417 : fur                          2
+418 : fuzzy                        2
+419 : fuzzy knit                   2
+425 : gauze                        2
+428 : gauzy                        2
+429 : gem                          2
+435 : georgette                    2
+436 : gingham                      2
+441 : glass                        2
+442 : glitter                      2
+455 : heathered                    2
+456 : heathered knit               2
+462 : herringbone                  2
+484 : jacquard                     2
+497 : knit                         2
+498 : knit lace                    2
+515 : lace                         2
+516 : lace layered                 2
+518 : lace mesh                    2
+521 : lace overlay                 2
+522 : lace panel                   2
+523 : lace paneled                 2
+526 : lace pleated                 2
+527 : lace print                   2
+529 : lace sheer                   2
+534 : lace-paneled                 2
+538 : lacy                         2
+544 : lattice                      2
+545 : layered                      2
+548 : leather                      2
+551 : leather paneled              2
+554 : leather quilted              2
+558 : leather-paneled              2
+561 : led                          2
+575 : loop                         2
+576 : loose                        2
+577 : loose-knit                   2
+603 : mesh                         2
+604 : mesh overlay                 2
+605 : mesh panel                   2
+606 : mesh paneled                 2
+608 : mesh-paneled                 2
+610 : metallic                     2
+620 : mineral                      2
+621 : mineral wash                 2
+651 : neon                         2
+652 : neoprene                     2
+653 : nets                         2
+654 : netted                       2
+661 : nylon                        2
+663 : oil                          2
+671 : organza                      2
+672 : origami                      2
+676 : overlay                      2
+690 : panel                        2
+691 : paneled                      2
+695 : patched                      2
+696 : patchwork                    2
+702 : perforated                   2
+704 : pima                         2
+710 : pintuck                      2
+711 : pintuck pleated              2
+712 : pintucked                    2
+715 : plaid                        2
+716 : plaid shirt                  2
+718 : pleat                        2
+719 : pleated                      2
+721 : pleated woven                2
+723 : pointelle                    2
+727 : ponte                        2
+734 : print satin                  2
+735 : print scuba                  2
+750 : purl                         2
+751 : quilted                      2
+769 : rhinestone                   2
+770 : rib                          2
+771 : rib-knit                     2
+772 : ribbed                       2
+774 : ribbed-knit                  2
+776 : ripped                       2
+787 : ruched                       2
+788 : ruffle                       2
+790 : ruffled                      2
+798 : sateen                       2
+799 : satin                        2
+804 : scuba                        2
+807 : seam                         2
+808 : seamless                     2
+810 : seersucker                   2
+812 : semi-sheer                   2
+813 : sequin                       2
+814 : sequined                     2
+815 : shaggy                       2
+818 : shearling                    2
+820 : sheer                        2
+821 : sheer-paneled                2
+823 : shirred                      2
+828 : shredded                     2
+837 : sleek                        2
+840 : slick                        2
+845 : slub                         2
+846 : slub-knit                    2
+860 : sparkling                    2
+875 : stone                        2
+876 : stone washed                 2
+877 : stones                       2
+883 : stretch                      2
+884 : stretch-knit                 2
+891 : studded                      2
+893 : suede                        2
+908 : tapestry                     2
+909 : tartan                       2
+913 : terry                        2
+915 : textured                     2
+916 : textured woven               2
+919 : tie-dye                      2
+922 : tiered                       2
+923 : tile                         2
+945 : tulle                        2
+949 : tweed                        2
+950 : twill                        2
+962 : velvet                       2
+963 : velveteen                    2
+969 : waffle                       2
+971 : wash                         2
+972 : washed                       2
+985 : woven                        2
